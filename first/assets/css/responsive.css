@@ -1,0 +1,305 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap
+/* Large devices (Extra large desktops, 1400px and up) */
+@media screen and (min-width: 1399px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1199px) { 
+	
+}
+
+/* Large devices (small desktops, 992px and up) */
+@media screen and (max-width: 991px) { 
+	.help-area {
+        width: 100%;
+        padding: 5px;
+        border-radius: 19px;
+    }
+
+    .authorPerson .col-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .help-area span.btn-text {
+        padding: 10px 25px;
+    }
+
+    .moneyArea.dashBPadding {
+        margin-bottom: 30px;
+    }
+
+    span.pDetails {
+        width: 244px;
+        margin-bottom: 80px;
+    }
+
+    .activeUser-iteam .progress {
+        width: 75px;
+    }
+	
+    .purityDB-details {
+        margin-bottom: 20px;
+    }
+
+    .activeUser-iteam {
+        margin-bottom: 10px;
+    }
+
+    .sectionBody.dashBoardSectionBody.sectionBodyExtra1 .progress {
+        width: 60px;
+    }
+
+    .default-footer-menuGroup a {
+        margin-left: 18px;
+    }
+
+    .progress {
+        width: 85px;
+    }
+}
+ 
+/* Large devices (Tab, 768px and up) */
+@media screen and (max-width: 767px) { 
+
+	section.headerImg.headerImg-signup {
+        background: url(../../assets/images/Image.jpg);
+        width: 100%;
+    }
+
+    .sidebar-header span {
+        font-size: 12px;
+    }
+
+    ul.nav_item li i {
+        margin-right: 5px;
+    }
+
+    ul.nav_item li a {
+        font-size: 10px;
+        padding-left: 2px;
+    }
+
+    p.sign-in-area {
+        margin-left: -55px;
+    }
+
+    .help-area span.btn-text {
+        padding: 10px 10px;
+    }
+
+    .help-area span.btn-text {
+        font-size: 8px;
+    }
+
+    element.style {
+        height: 140px;
+    }
+
+    span.pDetails {
+        width: 170px;
+        margin-bottom: 60px;
+    }
+
+    .activeUser-area.dashBPadding {
+        margin-bottom: 30px;
+    }
+
+    .sectionBody.sectionBodyExtra0 .col-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .person-details a {
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+
+    .authorPerson h6 {
+        font-size: 12px;
+    }
+
+    .authorPerson p {
+        margin-top: -2px;
+        font-size: 10px;
+    }
+
+    .sectionBodyExtra0 .col-2.manager {
+        margin-top: 10px;
+    }
+
+    .authorPerson span.greenSpan {
+        font-size: 12px;
+    }
+
+    .authorPerson span.graySpan {
+        font-size: 12px;
+    }
+
+    .authorPerson .col-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .authorPerson .person-details {
+        margin: -2px 0 0 10px;
+        display: inline-block;
+    }
+
+    .progress {
+        width: 70px;
+    }
+
+    .tableItem .authorImg {
+        margin-right: 10px;
+    }
+
+    .default-footer-menuGroup a {
+        margin-left: 0;
+        margin-right: 18px;
+    }
+	
+}
+
+/* Large devices (Tab, 641px and up) */
+@media screen and (max-width: 640px) { 
+	
+	
+}
+
+  /* Small devices (mobile, 641px and up) */
+  @media (max-width:575px) {
+	
+	.sidebar-header span {
+        font-size: 8px;
+    }
+
+    ul.nav_item li i {
+        margin-bottom: 5px;
+    }
+
+    ul.nav_item li i {
+        display: block;
+    }
+
+    ul.nav_item li i {
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+    }
+
+    .contentHeader-user li a {
+        font-size: 8px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .sidebar_nav h4 {
+        font-size: 10px;
+    }
+
+    .contentHeader-user li {
+        margin-left: 12px;
+    }
+
+    .contentHeader-topic p {
+        font-size: 10px;
+    }
+
+    .contentHeader-topic li {
+        font-size: 8px;
+    }
+
+    .help-area {
+        display: none;
+    }
+
+	.register-content.signUp {
+        padding: 0px 0px 0 50px;
+        margin: 90px auto 0 -12px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    ul.nav_item li a {
+        font-size: 8px;
+        padding-left: 5px;
+    }
+
+    span.pDetails {
+        width: 320px;
+        margin-bottom: 95px;
+    }
+
+    .purityDB-img img {
+        width: 250px;
+    }
+
+    .progress {
+        width: 45px;
+    }
+
+    .authorPerson .person-details {
+        margin: -2px 0 0 2px;
+    }
+
+    .authorPerson p {
+        margin-top: 6px;
+        font-size: 6px;
+    }
+
+    .authorPerson span.greenSpan {
+        font-size: 10px;
+        width: 54px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .authorPerson h6 {
+        font-size: 10px;
+    }
+
+    .authorPerson span {
+        font-size: 10px;
+    }
+
+    .authorPerson span.graySpan {
+        font-size: 10px;
+        width: 54px;
+        height: 20px;
+        line-height: 20px;
+    }
+		
+	
+}	
+	
+ 
+  /* Small devices (mobil, 481px and up) */
+@media (max-width:480px) {
+	
+	
+	
+	
+	
+
+}	
+
+
+
+/* Small devices (tablets, 321px and up) */
+@media (max-width:320px) {
+	
+	
+	
+ 
+}
